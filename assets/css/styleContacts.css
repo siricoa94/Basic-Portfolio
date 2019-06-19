@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    display: inline;
+    margin-right: 5px;
+    border-right: 1px solid #ccc;
+    padding:0 5px;
+  }
+  header{
+    height: 100px;
+  }
+  li:last-child{
+    border: none;
+  }
+  nav{
+    padding-top:20px;
+    float:right;
+  }
+  header h1{
+    float: left;
+    padding-top: 55px;
+    margin-left: 200px;
+    background-color: #4aaaa5;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    color:#ffffff;
+    border-color: #cccccc;
+  }
+  .container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    border-top:1px solid #666;
+    background: #9999;
+    border-color:#dddddd;
+  }
+  #AboutMe{
+    padding:20px;
+    border:1px solid #000;
+  }
+  #outerMainSection{
+    width:960px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  #bioSection{
+    padding: 20px;
+    height: 350px;
+  }
+  .bio-image{
+    float: left;
+    width: 40%;
+    text-align: center;
+  }
+  #profile_image{
+    width: 200px;
+    height: 200px;
+  }
+  .mainBio{
+    float: right;
+    width: 55%;
+    padding: 10px;
+  }
+  footer{
+    width: 93.5%;
+    height: 80px;
+    padding: 10px;
+    border-top:1px solid #0da195;
+    color: #fff;
+    background:#666666;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }

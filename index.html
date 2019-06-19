@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,53 @@
     <title>Andrew Sirico Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets\css\style.css">
 </head>
+
 <body>
-    <div>
+
+    <header>
         <h1>Andrew Sirico</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <section id="outerMainSection">
+        <div>
+            <h2 id="AboutMe">About Me</h2>
+        </div>
+        <section id="bioSection">
+
+
+            <div class="bio-image">
+                <img id="profile_image" src="assets\images\placeholder.png" width="150" height="150">
+            </div>
+
+            <div class="mainBio">
+                <p>
+                    My name is Andrew Sirico and I currently live in Clifton, New Jersey.
+                </p>
+                <p>
+                    I am originally from Ocean Township located in Monmouth county,
+                    but have lived at my current location since attending Montclair State University.
+                </p>
+                <span>
+                    I really enjoy music and even practice a little myself, although
+                    I would not recommend listening to it!
+                </span>
+            </div>
+        </section>
+    </section>
     </div>
-    <div class="image_div">
-        <img id="profile_image"src="assets\images\placeholder.png">
-    </div>
-    <div>
-        <h2>Brief description of self</h2>
-    </div>
-    <div class="brief_description">
-        <span>
-            My name is Andrew Sirico and I currently live in Clifton, New Jersey.
-        </span>
-        <span>
-            I am originally from Ocean Township located in Monmouth county,
-            but have lived at my current location since attending Montclair State University.
-        </span>
-        <span>
-            I really enjoy music and even practice a little myself, although
-            I would not recommend listening to it!
-        </span>
-    </div>
-    
-    
+    <footer>
+        &copy;Andrew
+    </footer>
+
 </body>
+
 </html>
